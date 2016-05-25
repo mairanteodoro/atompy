@@ -36,6 +36,11 @@ angular
         controller: 'FetchCtrl',
         controllerAs: 'fetch'
       })
+      .when('/display', {
+        templateUrl: 'views/display.html',
+        controller: 'DisplayCtrl',
+        controllerAs: 'display'
+      })
       .otherwise({
         redirectTo: '/'
       });

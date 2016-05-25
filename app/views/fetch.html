@@ -1,4 +1,27 @@
-<h1>This is the fetch view.</h1>
+<div class="text-center">
+
+  <h1>This is the fetch view.</h1>
+
+  <br><br>
 
 
-<button ng-click="callRest()" class="btn btn-large btn-primary">Fetch!</button>
+    <form action="display.html" method="get" class="form-inline">
+
+      <div class="form-group">
+        <label for="Z">Z = </label>
+        <input id="Z" type="text", name="Z", size="2", class="form-control", ng-model="z">
+        
+        <label for="N">N = </label>
+        <input id="N" type="text", name="N", size="2", class="form-control", ng-model="n">
+
+      </div>
+
+    </form>
+
+  <br><br>
+
+  <button ng-click="callRest()" class="btn btn-large btn-primary">Fetch!</button>
+  <br>
+  <br>
+  <br>
+</div>
